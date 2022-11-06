@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_design"
+    tools:context=".RegistrationActivity">
+
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/myimage"
+
+        android:layout_gravity="left"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up!!!"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+/>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Full Name"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="20dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:drawablePadding="10dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Enter Location.."
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="10dp"
+
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="20dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:drawablePadding="10dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/Gender"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Gender"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="10dp"
+
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="20dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:drawablePadding="10dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/Contact"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Contact No"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="10dp"
+
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="20dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:drawablePadding="10dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/RegistrationEmail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Enter Email.."
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="10dp"
+
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="20dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:drawablePadding="10dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="USERNAME"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="10dp"
+
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="20dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:drawablePadding="10dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Enter password..."
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="20dp"
+        android:inputType="textPassword"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="10dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/RegistrationButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:background="#fff"/>
+
+    <TextView
+        android:id="@+id/RegistrationPageQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Have an account? Login"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/image3"
+
+        />
+
+
+
+</LinearLayout>
